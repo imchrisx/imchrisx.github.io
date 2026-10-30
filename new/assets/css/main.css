@@ -1306,10 +1306,13 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+        background-image: url("images/overlay.png"), -moz-linear-gradient(225deg, #5757FF, #E173EB, #FF7373, #fcb244);
+        background-image: url("images/overlay.png"), -webkit-linear-gradient(225deg, #5757FF, #E173EB, #FF7373, #fcb244);
+        background-image: url("images/overlay.png"), -ms-linear-gradient(225deg, #5757FF, #E173EB, #FF7373, #fcb244);
+        background-image: url("images/overlay.png"), linear-gradient(225deg, #5757FF, #E173EB, #FF7373, #fcb244);
 		background-repeat: repeat, no-repeat;
-		background-size: auto, 100% 100%;
-		background-attachment: fixed;
+		background-size: auto, 100% 3000px;
+		background-attachment: scroll;
 		overflow-y: scroll;
 	}
 

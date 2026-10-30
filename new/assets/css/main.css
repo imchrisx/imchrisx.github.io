@@ -1876,7 +1876,7 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		width: 50em;
+		width: 55em;
 		margin: 0 auto;
 		min-height: 100vh;
 		max-width: 100%;
@@ -2008,7 +2008,7 @@ input, select, textarea {
 					-webkit-flex-shrink: 0;
 					-ms-flex-shrink: 0;
 					flex-shrink: 0;
-					width: 17em;
+					width: 20em;
 					height: 100%;
 				}
 

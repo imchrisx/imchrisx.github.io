@@ -1968,6 +1968,126 @@ button.xlarge,
 
 }
 
+input[type="button"].xlarge,
+input[type="submit"].xlarge,
+input[type="reset"].xlarge,
+button.xlarge,
+.button.xlarge {
+	font-size: 1.5em;
+	padding: 0.5em 1.25em 0.5em 1.25em;
+}
+
+#next input[type="button"],
+#next input[type="submit"],
+#next input[type="reset"],
+#next button,
+#next .button {
+	background-color: #222222;
+	color: #ffffff;
+	box-shadow: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	-moz-transition: background-color .25s ease-in-out;
+	-webkit-transition: background-color .25s ease-in-out;
+	-ms-transition: background-color .25s ease-in-out;
+	transition: background-color .25s ease-in-out;
+	border-radius: 8px;
+	border: 0;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 300;
+	height: 2.75em;
+	line-height: 2.75em;
+	min-width: 9.25em;
+	padding: 0 1em;
+	outline: 0;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	margin-top: 0.5em;
+}
+
+#next input[type="button"]:hover,
+#next input[type="submit"]:hover,
+#next input[type="reset"]:hover,
+#next button:hover,
+#next .button:hover {
+	background-color: #333333;
+}
+
+#next input[type="button"]:active,
+#next input[type="submit"]:active,
+#next input[type="reset"]:active,
+#next button:active,
+#next .button:active {
+	background-color: #444444;
+}
+
+#next input[type="button"].alt,
+#next input[type="submit"].alt,
+#next input[type="reset"].alt,
+#next button.alt,
+#next .button.alt {
+	background-color: #777777;
+}
+
+#next input[type="button"].alt:hover,
+#next input[type="submit"].alt:hover,
+#next input[type="reset"].alt:hover,
+#next button.alt:hover,
+#next .button.alt:hover {
+	background-color: #888888;
+}
+
+#next input[type="button"].alt:active,
+#next input[type="submit"].alt:active,
+#next input[type="reset"].alt:active,
+#next button.alt:active,
+#next .button.alt:active {
+	background-color: #999999;
+}
+
+#next input[type="button"].small,
+#next input[type="submit"].small,
+#next input[type="reset"].small,
+#next button.small,
+#next .button.small {
+	font-size: 0.75em;
+}
+
+#next input[type="button"].large,
+#next input[type="submit"].large,
+#next input[type="reset"].large,
+#next button.large,
+#next .button.large {
+	font-size: 1.25em;
+	padding: 0.5em 1.25em 0.5em 1.25em;
+}
+
+#next input[type="button"].xlarge,
+#next input[type="submit"].xlarge,
+#next input[type="reset"].xlarge,
+#next button.xlarge,
+#next .button.xlarge {
+	font-size: 1.5em;
+	padding: 0.5em 1.25em 0.5em 1.25em;
+}
+
+@media screen and (max-width: 736px) {
+
+	#next input[type="button"],
+	#next input[type="submit"],
+	#next input[type="reset"],
+	button,
+	.button {
+		width: 100%;
+	}
+
+}
+
+
 /* List */
 
 ul {

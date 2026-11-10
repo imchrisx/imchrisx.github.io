@@ -1977,6 +1977,10 @@ button.xlarge,
 	padding: 0.5em 1.25em 0.5em 1.25em;
 }
 
+.button.icon::before {
+	margin-right: 0.2em;
+}
+
 #next input[type="button"],
 #next input[type="submit"],
 #next input[type="reset"],

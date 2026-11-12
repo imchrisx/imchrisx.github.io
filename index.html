@@ -1,328 +1,367 @@
 <!DOCTYPE HTML>
 <!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Astral by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html>
 
 <head>
-	<title>Christopher Xiang</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
-	<base target="_blank">
+  <title>Christopher Xiang</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" />
+  </noscript>
 </head>
 
 <body class="is-preload">
+  <!-- Wrapper-->
+  <div id="wrapper">
 
-	<!-- Wrapper -->
-	<div id="wrapper">
+    <!-- Nav -->
+    <nav id="nav">
+      <a href="#" class="icon solid fa-home"><span>Home</span></a>
+      <a href="#projects" class="icon solid fa-folder"><span>Projects</span></a>
+      <a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+      <a href="https://www.linkedin.com/in/chris-xx/" target="_blank"
+        class="icon brands fa-linkedin"><span>LinkedIn</span></a>
+    </nav>
 
-		<!-- Header -->
-		<header id="header" class="alt">
-			<h1>Christopher Xiang</h1>
-			<p>Game Developer & UX Researcher</p>
-		</header>
+    <!-- Main -->
+    <div id="main">
 
-		<!-- Nav -->
-		<nav id="nav">
-			<ul>
-				<li><a href="#intro" class="active">About</a></li>
-				<li><a href="#skills">Skills</a></li>
-				<li><a href="#498">Projects</a></li>
-			</ul>
-		</nav>
+      <!-- Me -->
+      <article id="home" class="panel intro">
+        <header>
+          <h1>Christopher Xiang</h1>
+          <p>Software Engineer | Game Developer</p>
+        </header>
+        <a href="#projects" class="jumplink pic">
+          <span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+          <img src="images/headshot.jpg" alt="" />
+        </a>
+      </article>
 
-		<!-- Main -->
-		<div id="main">
+      <!-- Projects -->
+      <article id="projects" class="panel">
+        <header>
+          <h2>Projects</h2>
+        </header>
+        <p>
+          I have skills in C++, C#, Python <strong>Unity</strong> and Unreal Engine, I continually expand my skill set
+          while demonstrating a self-driven approach to my work. I thrive in fast-paced team environments, I excel in
+          diverse project scopes, specializing in UI/UX design, technical design, and gameplay programming.
+        </p>
 
-			<!-- Introduction -->
-			<section id="intro" class="main">
-				<div class="spotlight">
-					<div class="content">
-						<header class="major">
-							<h2>Welcome!</h2>
-						</header>
-						<p>Hi, I'm Chris! I'm a senior studying Computer Science at the University of Michigan Ann
-							Arbor. I'm working toward becoming a game/software developer with a focus on
-							<strong>C++</strong>, <strong>C#</strong>, and <strong>Unity</strong>. I also dive into
-							<strong>user research</strong>, <strong>UX analysis</strong>, and <strong>market
-								research</strong>, and I'm always up for learning new skills and taking on different
-							roles! Outside of school and projects, I enjoy playing indie games, attending open mic
-							nights, and feeding squirrels.
-						</p>
-					</div>
-					<span class="image"><img src="images/headshot.jpg" alt="" /></span>
-				</div>
-			</section>
+        <section class="work-section">
 
-			<!-- Skills -->
-			<section id="skills" class="main special">
-				<header class="major">
-					<h2>Skills</h2>
-				</header>
-				<ul class="features">
-					<li>
-						<span class="icon solid major style5 fa-code"></span>
-						<h3>Programming</h3>
-						<p>C, C++, C#, Lua, LuaBridge, Python, HTML, CSS, JavaScript, Java, SQL, Game Design,
-							Documentation,
-							Tools Engineering, Project Management, Agile Methodologies, Data-Oriented Code Design</p>
-					</li>
-					<li>
-						<span class="icon major style2 fa-user"></span>
-						<h3>User Experience</h3>
-						<p>User Research, Usability Testing, User Interviews, Rapid Prototyping, Accessibility,
-							UX Analysis, Client/Stakeholder Communication</p>
-					</li>
-					<li>
-						<span class="icon solid major style1 fa-compact-disc"></span>
-						<h3>Software</h3>
-						<p>Git, Jira, Unity, Visual Studio, Visual Studio Code, Figma, Office 365, Adobe, FL Studio,
-							Ableton Live</p>
-					</li>
-				</ul>
-			</section>
+          <!-- X Engine -->
+          <div class="project">
+            <div class="media">
+              <a href="#test" class="image fit"><img src="images/8-9-0.gif" alt=""></a>
+            </div>
+            <div class="desc">
+              <h3>X Engine</h3>
+              <p>
+                <strong>Software Engineer</strong>
+                <br>
+                <em>C++, Git, Test Driven Development</em>
+              </p>
+              <p>
+                A cross-platform 2D scriptable game engine written in <strong>C++</strong> which features
+                <strong>Lua</strong> scripting support. The engine uses <strong>SDL</strong> for game rendering,
+                <strong>Box2D</strong> for 2D physics, <strong>LuaBridge</strong> for scripting, and <strong>Dear
+                  ImGui</strong> for editor interface rendering. Used <strong>Visual Studio</strong> as the primary IDE
+                and imported engine to <strong>XCode</strong> for macOS support.
+              </p>
+              <ul>
+                <li>
+                  Responsibility 1
+                </li>
+                <li>
+                  Responsibility 2
+                </li>
+              </ul>
+              <a href="https://github.com/imchrisx/x-engine" target="_blank" class="button icon brands fa-github">
+                Repo
+              </a>
+            </div>
+          </div>
 
-			<!-- Rotisserie Engine -->
-			<section id="498" class="main special">
-				<div class="project">
-					<span class="image"><img src="images/8-9-0.gif" alt="Rotisserie game engine physics demo"
-							data-position="center center" /></span>
-					<div class="content">
-						<header class="major">
-							<h2>Rotisserie Game Engine</h2>
-						</header>
-						<p>A multiplatform 2D scriptable game engine written in <strong>C++</strong> which features
-							<strong>Lua</strong> scripting support. Developed over a 9 week cycle. The engine uses
-							<strong>SDL</strong> for game rendering, <strong>Box2D</strong> for 2D physics,
-							<strong>LuaBridge</strong> for scripting, and <strong>Dear ImGui</strong> for editor
-							interface rendering. Used <strong>Visual Studio</strong> as the primary IDE and imported
-							engine to <strong>XCode</strong> for macOS support.
-						</p>
-						<ul class="actions">
-							<li><a href="https://github.com/xiangchris/rotisserie-engine" class="button">Github Repo</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</section>
+          <!-- Aetherbreak -->
+          <div class="project">
+            <div class="media">
+              <a href="#test" class="image fit"><img src="images/aether.png" alt=""></a>
+            </div>
+            <div class="desc">
+              <h3>Aetherbreak</h3>
+              <p>
+                <strong>Gameplay Programmer</strong>
+                <br>
+                <em>C#, Unity, Notion</em>
+              </p>
+              <p>
+                A 3D action platformer with an emphasis on speedrunning. Developed with the
+                <strong>WolverineSoft Studio</strong>.
+                Utilized <strong>Notion</strong> for <strong>project management</strong>, applying
+                <strong>Agile methodology</strong>. Programmed UI and gameplay systems and level design, gameplay
+                controls, and level design.
+              </p>
+              <ul>
+                <li>
+                  Responsibility 1
+                </li>
+                <li>
+                  Responsibility 2
+                </li>
+              </ul>
+              <a href="https://wolverinesoft-studio.itch.io/aetherbreak" target="_blank"
+                class="button icon brands fa-steam">
+                Steam
+              </a>
+              <a href="https://wolverinesoft-studio.itch.io/aetherbreak" target="_blank"
+                class="button icon brands fa-itch-io">
+                Itch.io
+              </a>
+            </div>
+          </div>
 
-			<!-- Parcana: Wizard Golf -->
-			<section id="498" class="main special">
-				<div class="project">
-					<span class="image"><img src="images/parcana.png" alt="Parcana: Wizard Golf Logo"
-							data-position="center center" /></span>
-					<div class="content">
-						<header class="major">
-							<h2>Parcana: Wizard Golf</h2>
-						</header>
-						<p>A 3D arcade-style roguelike golf game with a wizard theme, where the procedurally-generated
-							course tries to stop you from reaching the end of nine holes. Developed during the
-							<strong>Xbox Game Camp Detroit 2025</strong>. Worked in a team of 6, over a 10 week cycle.
-							Programmed UI and gameplay systems, and edited the game trailer. Created in
-							<strong>Unity</strong> and programmed game logic in <strong>C#</strong>
-							with <strong>Visual Studio</strong>.
-						</p>
-						<ul class="actions">
-							<li><a href="https://evmarcus.itch.io/parcana-wizard-golf" class="button">Itch.io Page</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</section>
+          <!-- Parcana: Wizard Golf -->
+          <div class="project">
+            <div class="media">
+              <a href="#test" class="image fit"><img src="images/parcana.png" alt=""></a>
+            </div>
+            <div class="desc">
+              <h3>Parcana: Wizard Golf</h3>
+              <p>
+                <strong>Gameplay Programmer</strong>
+                <br>
+                <em>C#, Unity, Confluence</em>
+              </p>
+              <p>
+                A 3D arcade-style roguelike golf game with a wizard theme, where the procedurally-generated
+                course tries to stop you from reaching the end of nine holes. Developed during the
+                <strong>Xbox Game Camp Detroit 2025</strong>. Worked in a team of 6, over a 10 week cycle.
+                Programmed UI and gameplay systems, and edited the game trailer.
+                with <strong>Visual Studio</strong>.
+              </p>
+              <ul>
+                <li>
+                  Responsibility 1
+                </li>
+                <li>
+                  Responsibility 2
+                </li>
+              </ul>
+              <a href="https://evmarcus.itch.io/parcana-wizard-golf" target="_blank"
+                class="button icon brands fa-itch-io">
+                Itch.io
+              </a>
+            </div>
+          </div>
 
-			<!-- Aetherbreak -->
-			<section id="wsoft" class="main special">
-				<div class="project">
-					<span class="image"><img src="images/aether.png" alt="Aetherbreak Logo"
-							data-position="center center" /></span>
-					<div class="content">
-						<header class="major">
-							<h2>Aetherbreak</h2>
-						</header>
-						<p>A 3D action platformer with an emphasis on speedrunning. Developed with the WolverinSoft
-							Studio. Worked in a team of 16, over a 12 week cycle. Programmed UI and gameplay systems and
-							contributed to level design. Created in <strong>Unity</strong> and programmed game logic in
-							<strong>C#</strong> with <strong>Visual Studio</strong>. Utilized <strong>Notion</strong>
-							for <strong>project management</strong>, applying <strong>Agile methodology</strong>.
-						</p>
-						<ul class="actions">
-							<li><a href="https://wolverinesoft-studio.itch.io/aetherbreak" class="button">Itch.io
-									Page</a></li>
-						</ul>
-					</div>
-				</div>
-			</section>
+          <!-- Windy Wizard -->
+          <div class="project">
+            <div class="media">
+              <a href="#test" class="image fit"><img src="images/wizard.png" alt=""></a>
+            </div>
+            <div class="desc">
+              <h3>Windy Wizard</h3>
+              <p>
+                <strong>Gameplay Programmer</strong>
+                <br>
+                <em>C#, Unity, Confluence</em>
+              </p>
+              <p>
+                A 2D action puzzle platformer about a wind-wielding wizard retaking their family's castle from monsters.
+                Developed in the University of Michigan EECS 494 course, placing <strong>3rd</strong> at the student
+                showcase out of 15 groups. Worked in a team of 4, over a 6 week cycle. Programmed enemy AI and player
+                physics, contributed to level design, coordinated with freelancers, edited the game trailer, and
+                experimented with audio and sound effects. Created in <strong>Unity</strong> and programmed game logic
+                in <strong>C#</strong> with <strong>Visual Studio</strong>. Utilized <strong>Jira</strong> for
+                <strong>project management</strong>, applying <strong>Agile methodology</strong>.
+              </p>
+              <ul>
+                <li>
+                  Responsibility 1
+                </li>
+                <li>
+                  Responsibility 2
+                </li>
+              </ul>
+              <a href="https://xiangc.itch.io/windy-wizard" target="_blank" class="button icon brands fa-itch-io">
+                Itch.io
+              </a>
+            </div>
+          </div>
 
-			<!-- Between the Stars -->
-			<section id="311pitch" class="main special">
-				<div class="project">
-					<span class="image"><img src="images/stars.png" alt="Wizard with wind charges circling around."
-							data-position="center center" /></span>
-					<div class="content">
-						<header class="major">
-							<h2>Between the Stars</h2>
-						</header>
-						<p>A puzzle platformer concept pitched to game industry investors, placing <strong>3rd</strong>
-							out of 9 pitched games. Worked with a team of 5, over a 5 week cycle. Performed
-							<strong>project management</strong>, <strong>user research</strong>, and
-							<strong>market research</strong>. Contributed to game design document and used
-							<strong>Figma</strong> to design pitch slide deck and gameplay diagram.
-						</p>
-						<ul class="actions">
-							<li><a href="https://drive.google.com/file/d/1GpOoX-VDL1gegHXo1M5tJqTeVsHtxmbB"
-									class="button">Pitch Deck</a></li>
-						</ul>
-						<ul class="actions">
-							<li><a href="https://drive.google.com/file/d/1NbOdPTt4eLI0kaV4B9ftLoQb3DM4gHHx"
-									class="button">Design Document</a></li>
-						</ul>
-					</div>
-				</div>
-			</section>
+          <!-- Slice and Dice -->
+          <div class="project">
+            <div class="media">
+              <a href="#test" class="image fit"><img src="images/slime.png" alt=""></a>
+            </div>
+            <div class="desc">
+              <h3>Slice and Dice</h3>
+              <p>
+                <strong>Gameplay Programmer</strong>
+                <br>
+                <em>C#, Unity</em>
+              </p>
+              <p>
+                A turn-based strategy game about slicing vegetables with dice. Developed over a 2 week cycle. Created
+                with <strong>Unity</strong>, programmed game logic and animations in <strong>C#</strong>
+              </p>
+              <ul>
+                <li>
+                  Responsibility 1
+                </li>
+                <li>
+                  Responsibility 2
+                </li>
+              </ul>
+              <a href="https://xiangc.itch.io/slice-and-dice" target="_blank" class="button icon brands fa-itch-io">
+                Itch.io
+              </a>
+            </div>
+          </div>
+        </section>
+        <div id="next">
+          <a href="#archive" id="next" class="button">
+            Other Projects
+          </a>
+        </div>
+      </article>
 
-			<!-- Pikmin Bloom UX Breakdown -->
-			<section id="311breakdown" class="main special">
-				<div class="project">
-					<span class="image"><img src="images/pikmin.png" alt="Wizard with wind charges circling around."
-							data-position="center center" /></span>
-					<div class="content">
-						<header class="major">
-							<h2>Pikmin Bloom UX Breakdown</h2>
-						</header>
-						<p>A UX breakdown of the mobile game Pikmin Bloom, analyzing the user experience of the game's
-							<strong>gameplay loop</strong>, <strong>usability heuristics</strong>,
-							<strong>individual expression</strong>, and <strong>content inclusivity</strong>. Conducted
-							<strong>user research</strong> to uncover UX pain points and proposed design recommendations
-							to improve player experience.
-						</p>
-						<ul class="actions">
-							<li><a href="https://medium.com/@xiangc_41400/pikmin-bloom-a-ux-breakdown-72ee42bb736e"
-									class="button">Read Here</a></li>
-						</ul>
-					</div>
-				</div>
-			</section>
+      <!-- Other Projects -->
+      <article id="archive" class="panel">
+        <section class="work-section">
 
-			<!-- En Vogue -->
-			<section id="355game" class="main special">
-				<div class="project">
-					<span class="image"><img src="images/vogue.png" alt="Card Game Box."
-							data-position="center center" /></span>
-					<div class="content">
-						<header class="major">
-							<h2>En Vogue</h2>
-						</header>
-						<p>A card game about building outfits for fashion models. Worked in a team of 5, over a 6 week
-							cycle. Designed and developed game mechanics, contributed to rules document, and performed
-							<strong>Usability Testing</strong> through gameplay observation and think-aloud protocols to
-							evaluate player experience and game balance.
-						</p>
-						<ul class="actions">
-							<li><a href="https://drive.google.com/file/d/1vZXFRPjEOSOR4CimUGCYDie0zTrCzslE"
-									class="button">Rulebook</a></li>
-						</ul>
-					</div>
-				</div>
-			</section>
+          <!-- En Vogue -->
+          <div class="project">
+            <div class="media">
+              <a href="#test" class="image fit"><img src="images/vogue.png" alt=""></a>
+            </div>
+            <div class="desc">
+              <h3>En Vogue</h3>
+              <p>
+                <strong>Gameplay Programmer</strong>
+                <br>
+                <em>C#, Unity, Confluence</em>
+              </p>
+              <p>
+                A card game about building outfits for fashion models. Worked in a team of 5, over a 6 week
+                cycle. Designed and developed game mechanics, contributed to rules document, and performed
+                <strong>Usability Testing</strong> through gameplay observation and think-aloud protocols to
+                evaluate player experience and game balance.
+              </p>
+              <ul>
+                <li>
+                  Responsibility 1
+                </li>
+                <li>
+                  Responsibility 2
+                </li>
+              </ul>
+              <a href="https://drive.google.com/file/d/1vZXFRPjEOSOR4CimUGCYDie0zTrCzslE" target="_blank"
+                class="button icon brands fa-google-drive">
+                Rulebook
+              </a>
+            </div>
+          </div>
 
-			<!-- Windy Wizard -->
-			<section id="494p3" class="main special">
-				<div class="project">
-					<span class="image"><img src="images/wizard.png" alt="Wizard with wind charges circling around."
-							data-position="center center" /></span>
-					<div class="content">
-						<header class="major">
-							<h2>Windy Wizard</h2>
-						</header>
-						<p>A 2D action puzzle platformer about a wind-wielding wizard retaking their family's castle
-							from monsters. Developed in the University of Michigan EECS 494 course, placing
-							<strong>3rd</strong> at the student showcase out of 15 groups. Worked in a team of 4, over a
-							6 week cycle. Programmed enemy AI and player physics, contributed to level design,
-							coordinated with freelancers, edited the game trailer, and experimented with audio and sound
-							effects. Created in <strong>Unity</strong> and programmed game logic in <strong>C#</strong>
-							with <strong>Visual Studio</strong>. Utilized <strong>Jira</strong> for <strong>project
-								management</strong>, applying <strong>Agile methodology</strong>. Filmed trailer with
-							<strong>OBS</strong> and edited in <strong>Adobe Premiere Pro</strong>.
-						</p>
-						<ul class="actions">
-							<li><a href="https://xiangc.itch.io/windy-wizard" class="button">Itch.io
-									Page</a></li>
-						</ul>
-					</div>
-				</div>
-			</section>
+          <!-- Between the Stars -->
+          <div class="project">
+            <div class="media">
+              <a href="#test" class="image fit"><img src="images/stars.png" alt=""></a>
+            </div>
+            <div class="desc">
+              <h3>Between the Stars</h3>
+              <p>
+                <strong>Software Engineer</strong>
+                <br>
+                <em>C++, Git, Test Driven Development</em>
+              </p>
+              <p>
+                A puzzle platformer concept pitched to game industry investors, placing <strong>3rd</strong>
+                out of 9 pitched games. Worked with a team of 5, over a 5 week cycle. Performed
+                <strong>project management</strong>, <strong>user research</strong>, and
+                <strong>market research</strong>. Contributed to game design document and used
+                <strong>Figma</strong> to design pitch slide deck and gameplay diagram.
+              </p>
+              <ul>
+                <li>
+                  Responsibility 1
+                </li>
+                <li>
+                  Responsibility 2
+                </li>
+              </ul>
+              <a href="https://drive.google.com/file/d/1GpOoX-VDL1gegHXo1M5tJqTeVsHtxmbB" target="_blank"
+                class="button icon brands fa-google-drive">
+                Pitch Deck
+              </a>
+              <a href="https://drive.google.com/file/d/1NbOdPTt4eLI0kaV4B9ftLoQb3DM4gHHx" target="_blank"
+                class="button icon brands fa-google-drive">
+                Design Document
+              </a>
+            </div>
+          </div>
 
-			<!-- Slice and Dice -->
-			<section id="494p2" class="main special">
-				<div class="project">
-					<span class="image"><img src="images/slime.png" alt="Wizard with wind charges circling around."
-							data-position="center center" /></span>
-					<div class="content">
-						<header class="major">
-							<h2>Slice and Dice</h2>
-						</header>
-						<p>A turn-based strategy game about slicing vegetables with dice. Developed over a 2 week cycle.
-							Created with <strong>Unity</strong>, programmed game logic and animations in
-							<strong>C#</strong>, and drew sprites with <strong>Adobe Photoshop</strong>.
-						</p>
-						<ul class="actions">
-							<li><a href="https://xiangc.itch.io/slice-and-dice" class="button">Itch.io
-									Page</a></li>
-						</ul>
-					</div>
-				</div>
-			</section>
-		</div>
+          <!-- Pikmin Bloom UX Breakdown -->
+          <div class="project">
+            <div class="media">
+              <a href="#test" class="image fit"><img src="images/pikmin.png" alt=""></a>
+            </div>
+            <div class="desc">
+              <h3>Pikmin Bloom UX Breakdown</h3>
+              <p>
+                <strong>Gameplay Programmer</strong>
+                <br>
+                <em>C#, Unity, Notion</em>
+              </p>
+              <p>
+                A UX breakdown of the mobile game Pikmin Bloom, analyzing the user experience of the game's
+                <strong>gameplay loop</strong>, <strong>usability heuristics</strong>,
+                <strong>individual expression</strong>, and <strong>content inclusivity</strong>. Conducted
+                <strong>user research</strong> to uncover UX pain points and proposed design recommendations
+                to improve player experience.
+              </p>
+              <a href="https://medium.com/@xiangc_41400/pikmin-bloom-a-ux-breakdown-72ee42bb736e" target="_blank"
+                class="button icon brands fa-medium">
+                Read Here
+              </a>
+            </div>
+          </div>
+        </section>
+      </article>
 
-		<!-- Footer -->
-		<footer id="footer">
-			<section>
-				<h2>Resume</h2>
-				<p>Last updated November 6th, 2025</p>
-				<ul class="actions">
-					<li><a href="https://drive.google.com/file/d/1n2uXlkr2meRF0CMHEyQBxKoNpx4ySDPT/view"
-							class="button">Read Here</a></li>
-				</ul>
-			</section>
-			<section>
-				<h2>Contact Me</h2>
-				<dl class="alt">
-					<dt>Email</dt>
-					<dd><a href="mailto:chrisxxiang@gmail.com">chrisxxiang@gmail.com</a></dd>
-				</dl>
-				<ul class="icons">
-					<li><a href="https://github.com/xiangchris/" class="icon brands fa-github alt"><span
-								class="label">GitHub</span></a></li>
-					<li><a href="https://www.linkedin.com/in/christopher-x/" class="icon brands fa-linkedin alt"><span
-								class="label">LinkedIn</span></a></li>
-				</ul>
-			</section>
-			<p class="copyright">&copy; Christopher Xiang. All rights reserved.
-				Design: <a href="https://html5up.net">HTML5 UP</a>.
-			</p>
-		</footer>
+      <!-- Contact -->
+      <article id="contact" class="panel">
+        <header>
+          <h2>Resume</h2>
+        </header>
+        <iframe src="images/XiangResume11-26.pdf" style="width:100%; height:100vh;"></iframe>
+      </article>
+    </div>
 
-	</div>
+    <!-- Footer -->
+    <div id="footer">
+      <ul class="copyright">
+        <li>&copy; Christopher Xiang. All rights reserved.</li>
+        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </div>
 
+  </div>
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 
